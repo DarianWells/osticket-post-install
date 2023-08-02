@@ -18,11 +18,13 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Configure Roles
+- Configure Departments
+- Configure Teams
+- Setup osTicket so anyone can submit a ticket
+- Create example Agents (Workers) and Users (Customers)
+- Configure the SLA (Service Level Agreement)
+- Create help topics
 
 <h2>Configuration Steps</h2>
 
