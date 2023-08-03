@@ -32,7 +32,17 @@ Configuring our roles
 
 1. Go to the osTicket admin login page using this link: http://localhost/osTicket/scp/login.php . Go ahead and login using the username and password created during the installation guide.
 
-2. 
+2. Go to the admin panel by click the 'Admin Panel' button on the top of the page (you'll know you're in the admin panel when 'Agent Panel' is displayed at the top and the 'Admin Panel' button is not an option).
+
+3. Go to the 'Agents' tab.
+
+4. Click 'Roles'. Then select 'Add New Role'
+
+5. Name the role "Supreme Admin" then go to the Permissions tab.
+
+6. Check the boxes for all permissons under each of the sections under the 'Permissons' tab (Tickets, Tasks, and Knowledgebase sections). Select 'Add Role'.
+
+7. 
 
 
 <p>
