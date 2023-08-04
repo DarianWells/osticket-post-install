@@ -31,6 +31,8 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 Configuring Roles
 
+Roles are the permissions granted to Agents per Department that they have access to. Each Role has a set of permissions that can be checked/unchecked for agents given that Role in association with a Department they have access to. An unlimited number of roles can be created and assigned to Agents with access to various departments.
+
 1. Go to the osTicket admin login page using this link: http://localhost/osTicket/scp/login.php . Go ahead and login using the username and password created during the installation guide.
 
 2. Go to the admin panel by click the 'Admin Panel' button on the top of the page (you'll know you're in the admin panel when 'Agent Panel' is displayed at the top and the 'Admin Panel' button is not an option).
