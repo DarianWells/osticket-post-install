@@ -121,8 +121,35 @@ Agents are given access to the help desk with the intent to respond and resolve 
 
 12. Go back to the 'Agents' section and Add New Agent.
 
-13. 
+13. We'll follow the same process as we did for creating Jane, except set John's Primary Department to Support. Set his role to View Only. Also, set Extended Access to Support.
 
+14. Click 'Create'.
+
+15. Now we've added both John and Jane as agents!
+
+
+Configure Users (Customers)
+
+Users are essentially the customers who request support from the help desk. Users are the ticket owners of the tickets in the help desk. When a ticket is created in the help desk, the user is associated with their email address in the User Directory of the help desk.
+
+1. Go to Agent Panel -> Users
+
+2. Click 'Add New User'
+
+3. Create two new users:
+   - Karen Karen / karen@osticket.com
+   - Ken Ken / ken@osticket.com
+
+4. Select 'Add User'.
+
+5. We've successfully created two new User accounts!
+
+
+Configure the SLA (Service Level Agreement)
+
+SLA Plans or Service Level Agreements, are unlimited in osTicket. The purpose of the SLA Plan is to provide a length of time in which the help desk Administrator expects tickets to be closed. Once created, SLA Plans can be determined for Departments, Ticket Filters, and Help Topics.
+
+1. Go to Admin Panel -> Manage -> SLA
 
 
 <p>
