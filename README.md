@@ -22,7 +22,8 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Configure Departments
 - Configure Teams
 - Setup osTicket so anyone can submit a ticket
-- Create example Agents (Workers) and Users (Customers)
+- Configure Agents (Workers)
+- Configure Users (Customers)
 - Configure the SLA (Service Level Agreement)
 - Create help topics
 
@@ -50,7 +51,7 @@ Configuring Roles
 
 Configuring Departments
 
-Departments are useful as tickets can be seprated and assigned to specific departments depending on the nature of the problem described on a ticket. Teams and agents can be assigned to a single or multiple departments in order to view tickets and streamline troubleshooting and problem resolution.
+Departments are necessary as tickets are routed and assigned to specific departments depending on the nature of the problem described on a ticket. Teams and agents can be assigned from a single or multiple departments in order to view tickets and streamline troubleshooting and problem resolution.
 
 1. Go to Admin Panel -> Agents -> Departments.
 
@@ -92,6 +93,35 @@ Next, we will setup our ticketing system to allow anyone to be able to and submi
 2. Uncheck the box that says 'Require registration and login to create tickets'. Then save changes.
 
 
+Configuring Agents (Workers)
+
+Agents are given access to the help desk with the intent to respond and resolve the tickets. When adding an Agent to the help desk, they will need to be assigned to a Primary Department and given a Primary Role for the Tickets/Tasks routed to that department.
+
+1. Go to Admin Panel -> Agents -> Agents
+
+2. Click 'Add New Agent'
+
+3. Name the agent Jane Doe. for the email, use jane.doe@osticket.com.
+
+4. Make Jane's username jane.doe.
+
+5. Click 'Set Password'. Uncheck 'Send the agent a password reset email' and then you will see a text field to create a password for Jane. Use Password1.
+
+6. Uncheck 'Require password change at next login'. Set the password. 
+
+7. Go to the 'Access' tab. Assign Jane's Primary Department to System Administrators. Select Supreme Admin as her role.
+
+8. Go to the 'Teams' tab. Select Level II Support for her team.
+
+9. Click 'Create'.
+
+10. Now Jane's account has been successfully created.
+
+11. Let's create another uer. This time we'll be adding John Doe.
+
+12. Go back to the 'Agents' section and Add New Agent.
+
+13. 
 
 
 
