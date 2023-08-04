@@ -74,7 +74,26 @@ Teams allow you to pull Agents from different Departments and organize them to h
 
 2. Click 'Add New Team'
 
-3. 
+3. Name the team 'Level II Support'.
+
+4. Go to the 'Members' tab, and add yourself as a team member.
+
+5. Select 'Create Team'
+
+6. Level II Support has been successfully added as a team!
+
+
+Allow so anyone can create tickets
+
+Next, we will setup our ticketing system to allow anyone to be able to and submit a ticket, even without a user account.
+
+1. Go to Admin Panel -> Settings -> Users
+
+2. Uncheck the box that says 'Require registration and login to create tickets'. Then save changes.
+
+
+
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
