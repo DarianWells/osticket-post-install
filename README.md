@@ -149,7 +149,13 @@ Configure the SLA (Service Level Agreement)
 
 SLA Plans or Service Level Agreements, are unlimited in osTicket. The purpose of the SLA Plan is to provide a length of time in which the help desk Administrator expects tickets to be closed. Once created, SLA Plans can be determined for Departments, Ticket Filters, and Help Topics.
 
-1. Go to Admin Panel -> Manage -> SLA
+1. We'll be creating 3 new SLA Plans. Go to Admin Panel -> Manage -> SLA
+
+2. Click 'Add New SLA Plan'.
+
+3. Name the first plan SEV-A. Set the Grace Period to 1 hour. Set the Schedule to 24/7. Click 'Add Plan'. Create the next two plans by following the same steps
+   - SEV-B (4 hours, 24/7)
+   - SEV-C (8 hours, business hours)
 
 
 <p>
